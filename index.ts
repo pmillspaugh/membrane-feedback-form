@@ -31,7 +31,7 @@ async function handleFormSubmission(form: FeedbackForm) {
 
   const subject = `Garden thoughts from ${email ?? "anonymous reader"}`;
   const body = `Thoughts on ${url}:\n${feedback}`;
-  await nodes.email.send({ subject, body }).$invoke();
+  await nodes.email.send({ subject, body });
 
   return JSON.stringify({
     status: 200,
