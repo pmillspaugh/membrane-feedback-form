@@ -48,8 +48,8 @@ async function serveFeedbackForm() {
       <html>
         <body>
           <h1>Blog feedback form</h1>
-          <p>This form submits feedback to a membrane program I wrote for petemillspaugh.com.</p>
-          <p>The code is public, and I posted a blog post and Tweet demo</p>
+          <p>This form submits feedback to a membrane program I wrote for <a href="https://petemillspaugh.com">petemillspaugh.com</a> and notifies me via email.</p>
+          <p>The code is <a href="https://github.com/pmillspaugh/membrane-feedback-form">public</a>. I also wrote a <a href="https://www.petemillspaugh.com/membrane-feedback-form">blog post</a> and recorded a <a href="https://x.com/pete_millspaugh/status/1774581809558278517?s=20">demo on Twitter</a> if you're interested in digging deeper.</p>
           <form method="POST" action="https://studio-878-reserve-690-drawer-792-hat.hook.membrane.io">
             <label for="email">Your email:</label><br>
             <input type="email" id="email" name="email"><br><br>
